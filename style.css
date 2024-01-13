@@ -1,0 +1,44 @@
+.parent {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 500px;
+
+}
+
+.child {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+}
+
+.one {
+    /* rem is also a unit .considered more better than pixels */
+    width: 20rem; 
+    display: flex;
+    justify-content: center;
+}
+
+.child img {
+    margin: 1rem 0rem 0rem 0.2rem;
+    width: 10rem;
+    height: 3.4rem;
+}
+
+.two {
+    width: 40rem;
+}
+
+.two div {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 2rem;
+}
+
+.two div select {
+    font-size: 14px;
+    border: 0px;
+}
